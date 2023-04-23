@@ -1,0 +1,64 @@
+body{
+    background-color: darkcyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+form{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+     border: 5px solid grey;
+    border-radius: 10px;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.a{
+    height: 25%;
+    width: 100%;
+   background-color:powderblue;
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+border-radius: 10px 10px 0 0;
+font-family: 'Castoro Titling', cursive;
+font-family: 'Indie Flower', cursive;
+  
+}
+
+.input{
+width: 70%;
+height: 35px;
+background-color: antiquewhite;
+border: 1px solid gray;
+margin: 15px;
+color: black;
+
+
+}
+
+
+.f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    width: 70%;
+    
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
